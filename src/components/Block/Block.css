@@ -1,0 +1,16 @@
+.block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  border: 1px solid #ccc;
+  position: relative;
+}
+
+.block > span {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  font-size: 1.5rem;
+  color: #aaa;
+}
